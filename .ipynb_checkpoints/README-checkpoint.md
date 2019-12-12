@@ -13,7 +13,6 @@ This tool will be made available to other researchers interested in regularly pu
 In conclusion, the Automated PubMed Tracker incorporates many elements of introductory Python coding, including data visualization and manipulation. More edits are needed to make it as seamless as possible, but several successful tests have been run using alternative search parameters. 
 
 Methods:
-<<<<<<< HEAD
 Import the following modules: pandas, matplotlib.pyplot, Bio, csv, and collections. 
 
 NLM has already developed an E-utility series called Entrez that streamlines various queries. We will be using eSearch and eSummary from the Entrez toolkit :https://dataguide.nlm.nih.gov/eutilities/utilities.html#esearch.
@@ -95,9 +94,3 @@ plt.show()
 
 Authors:
 Kate Lawson (kalawson) and Taylorlyn Stephan (taylorlynstephan). Thank you to the instructors of BIOF309: John Lee, Ryan Patterson, and Sydney Hertafeld.
-=======
-
-References:
-Use of Entrez, ESearch, and ESummary - https://biopython.org/DIST/docs/api/Bio.Entrez-module.html#read, https://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESearch, https://dataguide.nlm.nih.gov/eutilities/utilities.html#efetch
-To export as .csv - https://www.tutorialspoint.com/How-to-save-a-Python-Dictionary-to-CSV-file 
->>>>>>> 40c432fee9ccf94ed56945d039f5befa4bb01068
