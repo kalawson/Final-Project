@@ -1,4 +1,4 @@
-## *Background:*
+## **Background:**
 PubMed is a National Library of Medicine-run database that records all publications in the greater biomedical field. PubMed assigns identities or PMIDs to all work in their database and allows users to search for keywords such as author, journal, grant number, or "disease" on their website. However, it would be useful to have an automated tracker that will mine PubMed and export the results to a useable format for later analyses.
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/
@@ -14,11 +14,13 @@ In conclusion, the Automated PubMed Tracker incorporates many elements of introd
 
 
 ## **Methods:**
-Import the following modules: pandas, matplotlib.pyplot, Bio, csv, and collections. 
+Import the following modules: pandas, matplotlib.pyplot, Biopython (Entrez), and collections (csv). 
 
 NLM has already developed an E-utility series called Entrez that streamlines various queries. We will be using eSearch and eSummary from the Entrez toolkit : https://dataguide.nlm.nih.gov/eutilities/utilities.html.
 
 You will need to register with Entrez using a valid email address as part of this package.
+
+To export the results as .csv we will use the collect package: https://www.tutorialspoint.com/How-to-save-a-Python-Dictionary-to-CSV-file.
 
 ## **Code:**
 ```
